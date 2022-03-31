@@ -1,0 +1,25 @@
+{
+    "name": "uelrrf/fuel-stats",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Uelrrf\\FuelStats\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Freitas",
+            "email": "uelrrf@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.21",
+        "infection/infection": "^0.26.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "infection/extension-installer": true
+        }
+    }
+}
